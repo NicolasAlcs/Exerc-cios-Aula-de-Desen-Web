@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista 1 - Questão 3</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        article {
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 20px 0;
+                    }
+        h2 {
+            color: #007BFF;
+        }
+        ul {
+            list-style-type: square;
+            margin-left: 20px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.8em;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Server Side e Client Side</h1>
+    </header>
+    <article>
+        <h2>Diferença entre Linguagens de Programação Server Side e Client Side</h2>
+        <p>As linguagens de programação podem ser classificadas em duas categorias principais: <strong>Server Side</strong> e <strong>Client Side</strong>.</p>
+        <h3> Linguagens Server Side</h3>
+        <p>As linguagens Server Side são executadas no servidor. Elas processam as requisições do cliente e retornam os resultados para o navegador do usuário. Isso permite interações dinâmicas com bancos de dados e manipulação de arquivos.</p>
+        <ul>
+            <li>
+                <strong>Exemplos:</strong> PHP, Python, Ruby, Java (Spring), Node.js.</li>
+        </ul>
+        
+        <h3> Linguagens Client Side</h3>
+        <p>As linguagens Client Side são executadas no navegador do usuário. Elas permitem a criação de interfaces interativas e responsivas, melhorando a experiência do usuário sem a necessidade de interagir com o servidor para cada ação.</p>
+        
+        <ul>
+            <li><strong>Exemplos:</strong> JavaScript, HTML, CSS.</li>
+        </ul>
+        
+        <h3>Diferenças</h3>
+        <ul>
+            <li><strong>Execução:</strong> 
+                Server Side executa no servidor, Client Side executa no navegador.</li>
+            <li><strong>Desempenho:</strong> 
+                Server Side pode ser mais lento devido à comunicação constante com o servidor, enquanto Client Side pode oferecer respostas mais rápidas ao usuário.</li>
+            <li><strong>Segurança:</strong> 
+                Server Side pode esconder lógica de negócios e dados sensíveis; Client Side é mais exposto ao usuário.</li>
+        </ul>
+    </article>
+    <footer>
+        <p>&copy; 2024. Todos os direitos reservados, Nicolas Sampaio.</p>
+    </footer>
+</body>
+</html>
