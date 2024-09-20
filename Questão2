@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Lista 1 - Questão 2</title>
+    <meta charset="UTF-8">
+    <meta name="Descrição" content="Resumo sobre o jogo web Code Combat que ajuda na programação">
+    <meta name="autor" content="Nicolas Sampaio">
+    <meta name="palavraschave" content="programação, jogo, tecnologia">
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: bisque;
+            line-height:2;
+            text-align: center;
+            padding: 10px
+            
+        }
+    </style>
+</head>
+<body>
+    <p>
+        O CodeCombat é um jogo que ensina programação de maneira interativa. Nele, os jogadores utilizam códigos reais para controlar 
+        seus personagens em desafios e missões. Com uma abordagem vaoltada para jogos, o CodeCombat torna o aprendizado de linguagens 
+        como Python e JavaScript acessível e envolvente, incentivando o desenvolvimento de habilidades essenciais para a programação.
+    </p>
+    <a href="https://codecombat.com/">Code Combat</a>
+</body>
+</html>
