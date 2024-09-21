@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista 1 - Questão 4</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 20px;
+            color: #343a40;
+        }
+        header {
+            background-color: #28a745;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            border-radius: 5px;
+        }
+        article {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-top: 20px;
+            text-align: center;
+        }
+        h2 {
+            color: #28a745;
+            text-align: center;
+        }
+        h3 {
+            color: #155724;
+            text-align: center;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Semântica e sua Importancia</h1>
+    </header>
+    <article>
+        <h2>O que significa semântica?</h2>
+        <p>Semântica refere-se ao estudo do significado das palavras e das relações entre elas. Em HTML, a semântica diz respeito ao uso de elementos que claramente definem o significado do conteúdo contido neles, facilitando a compreensão tanto para navegadores quanto para desenvolvedores e usuários.</p>
+        
+        <h3>Importância da Semântica em HTML</h3>
+        <p><strong>semântica é fundamental em HTML por várias razões:</strong> </p>
+        
+        <li><strong>Melhor Acessibilidade:</strong> Elementos semânticos ajudam leitores de tela a interpretar corretamente a estrutura da página.</li>
+        <li><strong>SEO (Otimização para Motores de Busca):</strong> Motores de busca conseguem indexar melhor o conteúdo, melhorando a visibilidade do site.</li>
+        <li><strong>Manutenção do Código:</strong> Código semântico é mais fácil de ler e manter, facilitando a colaboração entre desenvolvedores.</li>
+        <li><strong>Estrutura Clara:</strong> Ajuda a definir a estrutura do documento, como cabeçalhos, parágrafos e seções, tornando-o mais compreensível.</li>
+
+    </article>
+</body>
+</html>
