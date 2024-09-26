@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
-  <diagram name="Página-1" id="-jYGax4Z-KlBJ2uLjjoX">
-    <mxGraphModel dx="1941" dy="1733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram name="Bd_java" id="-jYGax4Z-KlBJ2uLjjoX">
+    <mxGraphModel dx="2181" dy="1733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -25,7 +25,7 @@
         <mxCell id="kctth2zFLPnqRk-hPfyQ-6" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;username | varchar(30) | not null unique&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kctth2zFLPnqRk-hPfyQ-3">
           <mxGeometry y="60" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kctth2zFLPnqRk-hPfyQ-14" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;fullName | varchar(60) | not null&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kctth2zFLPnqRk-hPfyQ-3">
+        <mxCell id="kctth2zFLPnqRk-hPfyQ-14" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;full_name | varchar(60) | not null&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kctth2zFLPnqRk-hPfyQ-3">
           <mxGeometry y="90" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="kctth2zFLPnqRk-hPfyQ-7" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;email | varchar(60) | not null unique&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kctth2zFLPnqRk-hPfyQ-3">
@@ -43,7 +43,7 @@
         <mxCell id="kctth2zFLPnqRk-hPfyQ-16" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;id | int&amp;nbsp; | primary key&amp;nbsp; not null auto_increment&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kctth2zFLPnqRk-hPfyQ-15">
           <mxGeometry y="30" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kctth2zFLPnqRk-hPfyQ-18" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;fullName | varchar(60) | not null&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kctth2zFLPnqRk-hPfyQ-15">
+        <mxCell id="kctth2zFLPnqRk-hPfyQ-18" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;full_name | varchar(60) | not null&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kctth2zFLPnqRk-hPfyQ-15">
           <mxGeometry y="60" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="kctth2zFLPnqRk-hPfyQ-19" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;email | varchar(60) | not null unique&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kctth2zFLPnqRk-hPfyQ-15">
@@ -56,25 +56,22 @@
           <mxGeometry y="150" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="kctth2zFLPnqRk-hPfyQ-23" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;products&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="600" y="130" width="290" height="210" as="geometry" />
+          <mxGeometry x="600" y="129" width="290" height="180" as="geometry" />
         </mxCell>
         <mxCell id="kctth2zFLPnqRk-hPfyQ-24" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;id | int&amp;nbsp; | primary key&amp;nbsp; not null auto_increment&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kctth2zFLPnqRk-hPfyQ-23">
           <mxGeometry y="30" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kctth2zFLPnqRk-hPfyQ-25" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;username | varchar(30) | not null unique&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kctth2zFLPnqRk-hPfyQ-23">
+        <mxCell id="kctth2zFLPnqRk-hPfyQ-25" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;name | varchar(30) | not null unique&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kctth2zFLPnqRk-hPfyQ-23">
           <mxGeometry y="60" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kctth2zFLPnqRk-hPfyQ-26" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;fullName | varchar(60) | not null&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kctth2zFLPnqRk-hPfyQ-23">
+        <mxCell id="kctth2zFLPnqRk-hPfyQ-26" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;age_range| int | not null&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kctth2zFLPnqRk-hPfyQ-23">
           <mxGeometry y="90" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kctth2zFLPnqRk-hPfyQ-27" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;email | varchar(60) | not null unique&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kctth2zFLPnqRk-hPfyQ-23">
+        <mxCell id="kctth2zFLPnqRk-hPfyQ-27" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;city | varchar(60) | not null&amp;nbsp;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kctth2zFLPnqRk-hPfyQ-23">
           <mxGeometry y="120" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kctth2zFLPnqRk-hPfyQ-28" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;password | varchar(72) | not null&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kctth2zFLPnqRk-hPfyQ-23">
+        <mxCell id="kctth2zFLPnqRk-hPfyQ-40" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;targeted_gender | varchar(9) | not null&amp;nbsp;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kctth2zFLPnqRk-hPfyQ-23">
           <mxGeometry y="150" width="290" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="kctth2zFLPnqRk-hPfyQ-29" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;role | char(1) | not null&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="kctth2zFLPnqRk-hPfyQ-23">
-          <mxGeometry y="180" width="290" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
